@@ -68,6 +68,7 @@ int solve(int n) {
 
 int main() {
 	int n, m;
+	ios::sync_with_stdio(false);
 	cin >> n >> m >> start >> end;
 	for (int i = 1; i <= n; ++i)
 		for (int j = 1; j <= n; ++j)
@@ -80,6 +81,5 @@ int main() {
 		}
 	}
 	cout << solve(n) << endl;
-	system("pause");
 	return 0;
 }

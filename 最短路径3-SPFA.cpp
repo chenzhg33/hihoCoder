@@ -43,7 +43,6 @@ int spfa() {
 	return dis[end];
 }
 int main() {
-	//freopen("in.txt", "r", 0);
 	scanf("%d%d%d%d", &n, &m, &start, &end);
 	int p1, p2, tdis;
 	for (int i = 0; i < m; ++i) {
