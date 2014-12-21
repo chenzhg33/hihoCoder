@@ -1,3 +1,7 @@
+/***************************
+ * 此种做法会超时，题目的标签是dp，
+ * 想了好久都没想到
+ */
 #include <iostream>
 #include <map>
 using namespace std;
